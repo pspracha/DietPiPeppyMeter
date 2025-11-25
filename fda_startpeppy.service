@@ -1,0 +1,13 @@
+[Unit]
+Description=FdA Service to start PeppyMeter at PLAY
+
+[Service]
+User=dietpi
+Group=dietpi
+WorkingDirectory=/home/dietpi/PeppyMeter/
+Environment="DISPLAY=:0"
+Environment="XDG_RUNTIME_DIR=/run/user/%U"
+ExecStart=python3 fda_startpeppy.py
+#ExecStart=launch.sh
+[Install]
+WantedBy=multi-user.target
