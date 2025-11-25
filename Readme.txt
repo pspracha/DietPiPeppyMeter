@@ -8,9 +8,12 @@ sudo apt install git
 git clone https://github.com/project-owner/peppyalsa.git
 cd peppyalsa
 
-*** New version of diept will cause peppyalsa compile error 
-*** Copy peppyalsa sourcecode  meter.c,spectrum.c peppyalsa.c to replace 
+*** Note !!! ***
+New version of diept will cause peppyalsa compile error 
+Copy peppyalsa sourcecode  meter.c,spectrum.c peppyalsa.c to replace 
 the existing one under /home/dietpi/peppyalsa/src
+But if you are not using the new version of DietPi just ignore this.
+*********
 
 
 sudo apt-get install build-essential autoconf automake libtool libasound2-dev libfftw3-dev
