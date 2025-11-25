@@ -1,5 +1,6 @@
 *** How to Install Peppy Meter
 *** This is working on Ultra Wide Screen 14 Inches HDMI display
+*** The resolution is 1280x400
 
 1.Install peppyalsa
 
