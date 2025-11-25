@@ -1,4 +1,4 @@
-How to Install Peppy Meter
+*** How to Install Peppy Meter
 
 1.Install peppyalsa
 
@@ -6,8 +6,9 @@ sudo apt install git
 git clone https://github.com/project-owner/peppyalsa.git
 cd peppyalsa
 
-*** New version of diept will cause ALSA compile error 
-*** Copy code under Patch ALSA to replace them
+*** New version of diept will cause peppyalsa compile error 
+*** Copy peppyalsa sourcecode  meter.c,spectrum.c peppyalsa.c to replace 
+the existing one under /home/dietpi/peppyalsa/src
 
 
 sudo apt-get install build-essential autoconf automake libtool libasound2-dev libfftw3-dev
@@ -17,7 +18,6 @@ autoconf && automake --add-missing
 
 sudo make install
 
-
 sudo mkfifo /var/tmp/peppyfifo
 sudo chmod 777 /var/tmp/peppyfifo
 
@@ -26,14 +26,12 @@ Modify from asound.conf to match your soundcard. Use aplay -l
 to seee card and device id
 
 
-
 3. Test peppyalsa after config around.conf
 cd /home/dietpi/peppyalsa/src
 gcc peppyalsa-client.c -o peppyalsa-client
 /home/dietpi/peppyalsa/src/peppyalsa-client /var/tmp/peppyfifo
 
-You should see meter moving 
-Or cat /var/tmp/peppyfifo 
+*** You should see meter moving . if it is not moving , recheck asound.conf 
 
 5. Install PeppyMeter
 cd /home/dietpi
