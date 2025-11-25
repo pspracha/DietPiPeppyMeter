@@ -73,3 +73,4 @@ sudo systemctl enable fda_startpeppy.service
 sudo systemctl start fda_startpeppy.service
 
 *** Note! Don’t forget to change squeezelite Mac address.  You can find it under Player Extra Setting
+Modify in file  fda_startpeppy.py  at SQUEEZELITE_PLAYER_ID = "your mac address"
