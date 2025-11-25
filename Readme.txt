@@ -1,4 +1,5 @@
 *** How to Install Peppy Meter
+*** This is working on Ultra Wide Screen 14 Inches HDMI display
 
 1.Install peppyalsa
 
@@ -21,9 +22,9 @@ sudo make install
 sudo mkfifo /var/tmp/peppyfifo
 sudo chmod 777 /var/tmp/peppyfifo
 
-2. Confifure alsa.conf
-Modify from asound.conf to match your soundcard. Use aplay -l 
-to seee card and device id
+2. Configure alsa.conf
+Modify from asound.conf to match your soundcard. 
+Use aplay -l  to seee card and device id
 
 
 3. Test peppyalsa after config around.conf
