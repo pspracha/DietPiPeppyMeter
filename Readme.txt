@@ -28,7 +28,7 @@ sudo chmod 777 /var/tmp/peppyfifo
 
 2. Configure alsa.conf
 Modify from asound.conf to match your soundcard. 
-Use aplay -l  to seee card and device id
+Use aplay -l  to see card and device id
 
 
 3. Test peppyalsa after config around.conf
