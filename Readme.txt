@@ -71,3 +71,5 @@ sudo chmod +111 /etc/systemd/system/fda_startpeppy.service
 sudo systemctl daemon-reload
 sudo systemctl enable fda_startpeppy.service
 sudo systemctl start fda_startpeppy.service
+
+*** Note! Don’t forget to change squeezelite Mac address.  You can find it under Player Advance Configuration
