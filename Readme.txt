@@ -1,3 +1,5 @@
+*** This is setting on Rasberry PI5 with dietpi os 
+
 *** How to Install Peppy Meter
 *** This is working on Ultra Wide Screen 14 Inches HDMI display
 *** The resolution is 1280x400
