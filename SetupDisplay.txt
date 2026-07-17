@@ -1,5 +1,6 @@
 2026/07/17 Update 
 This is for 1280x400 configuration
+Test update in Branch Test
 
 
 ***** Setup display with resolution of 1280x400 in dietpi
