@@ -1,3 +1,7 @@
+2026/07/17 Update 
+This is for 1280x400 configuration
+
+
 ***** Setup display with resolution of 1280x400 in dietpi
 
 Step 1: Replace Chromium command with xinit ~/.xinitrc
